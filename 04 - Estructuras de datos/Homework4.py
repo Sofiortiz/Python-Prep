@@ -110,7 +110,10 @@ print(mi_lista)
 
 ##22) Desempaquetar solo los primeros 3 elementos de la tupla en 3 variables
 
-print("Primero:", mi_tupla[0] ,"segundo:",mi_tupla[1],"tercero:",mi_tupla[2])
+v1,v2,v3 = mi_tupla[:3]
+print(v1)
+print(v2)
+print(v3)
 
 ##23) Crear un diccionario utilizando la lista crada en el punto 1, asignandole la clave "ciudad".
 #  Agregar tambien otras claves, como puede ser "Pais" y "Continente".
